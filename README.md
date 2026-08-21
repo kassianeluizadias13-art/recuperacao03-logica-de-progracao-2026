@@ -116,7 +116,7 @@ O programa deverá apresentar repetidamente o seguinte menu:
 ```text
 1 - Água - R$ 4,00
 2 - Refrigerante - R$ 7,00
-3 - Suco - R$ 6,00
+3 - suco - R$ 6,00
 0 - Finalizar
 ```
 
