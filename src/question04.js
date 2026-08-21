@@ -1,7 +1,7 @@
 import leia from "readline-sync"
-    var agua = 4
-    var refri = 7 
-    var suco = 6
+    var agua = 1
+    var refri = 1
+    var suco = 1
     var Sagua = 0
     var Srefri = 0 
     var Ssuco = 0
@@ -16,15 +16,15 @@ for(var i = 0; i < pedidos; i++){
    
 
     if( item  === 1){
-      agua *= pedidos
+      agua += pedidos
        
     
     } else if(item  === 2){
-   Srefri += refri
+   refri += pedidos
       
 
     }else if(item === 3){
-      suco += item 
+      suco += pedidos
       
 
     } else {
@@ -33,4 +33,6 @@ for(var i = 0; i < pedidos; i++){
 
 
 }
-console.log("Agua adicionada: " + agua)
+console.log("Agua adicionada: " + (agua * 4))
+console.log("refri adicionada: " + (refri * 7))
+console.log("suco adicionada: " + (suco * 6))
